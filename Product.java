@@ -1,24 +1,23 @@
 public class Product {
-
     String description;
     int id;
-    double cena;
+    double price;
     int quantity;
-    double skladovaCena;
+    double storagePrice;
 
-    Product(String description, double cena, int quantity, double cena2){
+    Product(String description, double price, int quantity, double price2){
         this.description = description;
-        this.cena = cena;
+        this.price = price;
         this.quantity = quantity;
-        this.skladovaCena = cena2;
+        this.storagePrice = price2;
     }
 
-    public double getSkladovaCena() {
-        return skladovaCena;
+    public double getStoragePrice() {
+        return storagePrice;
     }
 
-    public void setSkladovaCena(double skladovaCena) {
-        this.skladovaCena = skladovaCena;
+    public void setStoragePrice(double storagePrice) {
+        this.storagePrice = storagePrice;
     }
 
     public String getDescription() {
@@ -37,12 +36,12 @@ public class Product {
         this.id = id;
     }
 
-    public double getCena() {
-        return cena;
+    public double getPrice() {
+        return price;
     }
 
-    public void setCena(double cena) {
-        this.cena = cena;
+    public void setPrice(double price) {
+        this.price = price;
     }
 
     public int getQuantity() {
@@ -55,3 +54,4 @@ public class Product {
 
 
 }
+
